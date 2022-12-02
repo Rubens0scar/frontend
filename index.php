@@ -1,6 +1,5 @@
 <?php
 $data = json_decode( file_get_contents('http://192.168.137.170:3000/lista/'), true );
-
 // foreach($data as $item){
 //     echo $item ["titulo"]."<br/>";
 // }
