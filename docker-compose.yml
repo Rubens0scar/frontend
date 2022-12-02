@@ -1,0 +1,8 @@
+version: '3'
+services:
+        apache.local:
+                image: php:8.1-apache
+                volumes:
+                        - .:/var/www/html
+                ports:
+                        - 3001:80
